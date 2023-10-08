@@ -796,7 +796,7 @@ public class qLottery extends javax.swing.JFrame {
             jTextField5.setForeground(Color.white);
             jTextField5.setEnabled(false);
         }else if(jTextField3.getText().equals("VW")){
-            jTextField3.setForeground(Color.white);
+            jTextField2.setForeground(Color.white);
             jTextField2.setEnabled(false);
             jTextField5.setForeground(Color.white);
             jTextField5.setEnabled(false);
@@ -826,8 +826,8 @@ public class qLottery extends javax.swing.JFrame {
             jTextField4.setForeground(Color.white);
             jTextField4.setEnabled(false);
         }else if(jTextField4.getText().equals("Drake")){
-            jTextField3.setForeground(Color.white);
-            jTextField3.setEnabled(false);
+            jTextField2.setForeground(Color.white);
+            jTextField2.setEnabled(false);
             jTextField5.setForeground(Color.white);
             jTextField5.setEnabled(false);
         }else if(jTextField5.getText().equals("Drake")){
@@ -853,10 +853,10 @@ public class qLottery extends javax.swing.JFrame {
         }else if(jTextField4.getText().equals("Venus")){
             jTextField5.setForeground(Color.white);
             jTextField5.setEnabled(false);
-            jTextField4.setForeground(Color.white);
-            jTextField4.setEnabled(false);
-        }else if(jTextField5.getText().equals("Venus")){
             jTextField2.setForeground(Color.white);
+            jTextField2.setEnabled(false);
+        }else if(jTextField5.getText().equals("Venus")){
+            jTextField3.setForeground(Color.white);
             jTextField3.setEnabled(false);
             jTextField2.setForeground(Color.white);
             jTextField2.setEnabled(false);
@@ -870,15 +870,15 @@ public class qLottery extends javax.swing.JFrame {
             jTextField4.setForeground(Color.white);
             jTextField4.setEnabled(false);
         }else if(jTextField3.getText().equals("Nike")){
-            jTextField3.setForeground(Color.white);
-            jTextField3.setEnabled(false);
+            jTextField2.setForeground(Color.white);
+            jTextField2.setEnabled(false);
             jTextField4.setForeground(Color.white);
             jTextField4.setEnabled(false);
         }else if(jTextField4.getText().equals("Nike")){
             jTextField3.setForeground(Color.white);
             jTextField3.setEnabled(false);
-            jTextField4.setForeground(Color.white);
-            jTextField4.setEnabled(false);
+            jTextField2.setForeground(Color.white);
+            jTextField2.setEnabled(false);
         }else if(jTextField5.getText().equals("Nike")){
             jTextField3.setForeground(Color.white);
             jTextField3.setEnabled(false);
@@ -983,47 +983,960 @@ public class qLottery extends javax.swing.JFrame {
         }
         
     }
+    else if (callquestions == 9) {
+        if (jTextField2.getText().equals("Horse")) {
+            jTextField3.setForeground(Color.white);
+            jTextField3.setEnabled(false);
+            jTextField4.setForeground(Color.white);
+            jTextField4.setEnabled(false);
+        }else if(jTextField3.getText().equals("Horse")){
+            jTextField2.setForeground(Color.white);
+            jTextField2.setEnabled(false);
+            jTextField4.setForeground(Color.white);
+            jTextField4.setEnabled(false);
+        }else if(jTextField4.getText().equals("Horse")){
+            jTextField2.setForeground(Color.white);
+            jTextField2.setEnabled(false);
+            jTextField5.setForeground(Color.white);
+            jTextField5.setEnabled(false);
+        }else if(jTextField5.getText().equals("Horse")){
+            jTextField3.setForeground(Color.white);
+            jTextField3.setEnabled(false);
+            jTextField4.setForeground(Color.white);
+            jTextField4.setEnabled(false);
+        }
+        
+    }else if (callquestions == 10) {
+        if (jTextField2.getText().equals("China")) {
+            jTextField3.setForeground(Color.white);
+            jTextField3.setEnabled(false);
+            jTextField4.setForeground(Color.white);
+            jTextField4.setEnabled(false);
+        }else if(jTextField3.getText().equals("Chine")){
+            jTextField2.setForeground(Color.white);
+            jTextField2.setEnabled(false);
+            jTextField4.setForeground(Color.white);
+            jTextField4.setEnabled(false);
+        }else if(jTextField4.getText().equals("China")){
+            jTextField2.setForeground(Color.white);
+            jTextField2.setEnabled(false);
+            jTextField5.setForeground(Color.white);
+            jTextField5.setEnabled(false);
+        }else if(jTextField5.getText().equals("China")){
+            jTextField3.setForeground(Color.white);
+            jTextField3.setEnabled(false);
+            jTextField4.setForeground(Color.white);
+            jTextField4.setEnabled(false);
+        }
+        
+    }else if (callquestions == 11) {
+        if (jTextField2.getText().equals("Burj-Khalifa")) {
+            jTextField3.setForeground(Color.white);
+            jTextField3.setEnabled(false);
+            jTextField4.setForeground(Color.white);
+            jTextField4.setEnabled(false);
+        }else if(jTextField3.getText().equals("Burj-Khalifa")){
+            jTextField2.setForeground(Color.white);
+            jTextField2.setEnabled(false);
+            jTextField4.setForeground(Color.white);
+            jTextField4.setEnabled(false);
+        }else if(jTextField4.getText().equals("Burj-Khalifa")){
+            jTextField2.setForeground(Color.white);
+            jTextField2.setEnabled(false);
+            jTextField5.setForeground(Color.white);
+            jTextField5.setEnabled(false);
+        }else if(jTextField5.getText().equals("Burj-Khalifa")){
+            jTextField3.setForeground(Color.white);
+            jTextField3.setEnabled(false);
+            jTextField4.setForeground(Color.white);
+            jTextField4.setEnabled(false);
+        }
+        
+    }else if (callquestions == 12) {
+        if (jTextField2.getText().equals("Sukuna")) {
+            jTextField3.setForeground(Color.white);
+            jTextField3.setEnabled(false);
+            jTextField4.setForeground(Color.white);
+            jTextField4.setEnabled(false);
+        }else if(jTextField3.getText().equals("Sukuna")){
+            jTextField2.setForeground(Color.white);
+            jTextField2.setEnabled(false);
+            jTextField4.setForeground(Color.white);
+            jTextField4.setEnabled(false);
+        }else if(jTextField4.getText().equals("Sukuna")){
+            jTextField2.setForeground(Color.white);
+            jTextField2.setEnabled(false);
+            jTextField5.setForeground(Color.white);
+            jTextField5.setEnabled(false);
+        }else if(jTextField5.getText().equals("Sukuna")){
+            jTextField3.setForeground(Color.white);
+            jTextField3.setEnabled(false);
+            jTextField4.setForeground(Color.white);
+            jTextField4.setEnabled(false);
+        }
+        
+    }else if (callquestions == 13) {
+        if (jTextField2.getText().equals("Sakura")) {
+            jTextField3.setForeground(Color.white);
+            jTextField3.setEnabled(false);
+            jTextField4.setForeground(Color.white);
+            jTextField4.setEnabled(false);
+        }else if(jTextField3.getText().equals("Sakura")){
+            jTextField2.setForeground(Color.white);
+            jTextField2.setEnabled(false);
+            jTextField4.setForeground(Color.white);
+            jTextField4.setEnabled(false);
+        }else if(jTextField4.getText().equals("Sakura")){
+            jTextField2.setForeground(Color.white);
+            jTextField2.setEnabled(false);
+            jTextField5.setForeground(Color.white);
+            jTextField5.setEnabled(false);
+        }else if(jTextField5.getText().equals("Sakura")){
+            jTextField3.setForeground(Color.white);
+            jTextField3.setEnabled(false);
+            jTextField4.setForeground(Color.white);
+            jTextField4.setEnabled(false);
+        }
+        
+    }else if (callquestions == 14) {
+        if (jTextField2.getText().equals("Coffee")) {
+            jTextField3.setForeground(Color.white);
+            jTextField3.setEnabled(false);
+            jTextField4.setForeground(Color.white);
+            jTextField4.setEnabled(false);
+        }else if(jTextField3.getText().equals("Coffee")){
+            jTextField2.setForeground(Color.white);
+            jTextField2.setEnabled(false);
+            jTextField4.setForeground(Color.white);
+            jTextField4.setEnabled(false);
+        }else if(jTextField4.getText().equals("Coffee")){
+            jTextField2.setForeground(Color.white);
+            jTextField2.setEnabled(false);
+            jTextField5.setForeground(Color.white);
+            jTextField5.setEnabled(false);
+        }else if(jTextField5.getText().equals("Coffee")){
+            jTextField3.setForeground(Color.white);
+            jTextField3.setEnabled(false);
+            jTextField4.setForeground(Color.white);
+            jTextField4.setEnabled(false);
+        }
+        
+    }else if (callquestions == 15) {
+        if (jTextField2.getText().equals("Hage")) {
+            jTextField3.setForeground(Color.white);
+            jTextField3.setEnabled(false);
+            jTextField4.setForeground(Color.white);
+            jTextField4.setEnabled(false);
+        }else if(jTextField3.getText().equals("Hage")){
+            jTextField2.setForeground(Color.white);
+            jTextField2.setEnabled(false);
+            jTextField4.setForeground(Color.white);
+            jTextField4.setEnabled(false);
+        }else if(jTextField4.getText().equals("Hage")){
+            jTextField2.setForeground(Color.white);
+            jTextField2.setEnabled(false);
+            jTextField5.setForeground(Color.white);
+            jTextField5.setEnabled(false);
+        }else if(jTextField5.getText().equals("Hage")){
+            jTextField3.setForeground(Color.white);
+            jTextField3.setEnabled(false);
+            jTextField4.setForeground(Color.white);
+            jTextField4.setEnabled(false);
+        }
+        
+    }
     
     }
     }                                    
 
     private void jLabel2MouseClicked(java.awt.event.MouseEvent evt) {                                     
-        if(isClicked2==false){
+   if(isClicked2==false){
         isClicked2=true;
         jLabel2.setEnabled(false);
-        ImageIcon[] imagelist1=new ImageIcon[1];
-        for (int i =0; i < imagelist1.length; i++){
-        imagelist1[i] = new ImageIcon(getClass().getResource("/wLottery/images/"+ imagephone[i]));
-        }
-        if(phone < 0) phone = 1;
-        if(phone >= 0 && phone < imagephone.length){
-        jLabel2.setIcon(imagelist1[phone]);
-            
+    
+    ImageIcon[] imagelist1 = new ImageIcon[1];
+    for (int i = 0; i < imagelist1.length; i++) {
+        imagelist1[i] = new ImageIcon(getClass().getResource("/wLottery/images/" + imagephone[i]));
+    }
+    
+    if (phone < 0) {
+        phone = 1;
+    }
+    
+    if (phone >= 0 && phone < imagephone.length) {
+        //jLabel1.setIcon(imagelist1[fifty50]);
+        jLabel2.setEnabled(false);
         phone++;
-}  
-         if(callquestions==1 && jTextField2.getText().equals("VW"));
-        {
-            jTextField3.setForeground(BLACK);
-            jTextField4.setForeground(BLACK);
+    }
+    
+        if (jLabel2.isEnabled()) {
+        // If jLabel1 is currently enabled, disable it
+        jLabel2.setEnabled(false);
         }
+
+    if (callquestions == 1) {
+        if (jTextField2.getText().equals("VW")) {
+            jTextField3.setForeground(Color.white);
+            jTextField3.setEnabled(false);
+
+        }else if(jTextField3.getText().equals("VW")){
+            jTextField2.setForeground(Color.white);
+            jTextField2.setEnabled(false);
+
+        }else if(jTextField4.getText().equals("VW")){
+            jTextField5.setForeground(Color.white);
+            jTextField5.setEnabled(false);
+        }else if(jTextField5.getText().equals("VW")){
+            jTextField3.setForeground(Color.white);
+            jTextField3.setEnabled(false);
+
+        } 
+        
+        
+    }
+    else if (callquestions == 2) {
+        if (jTextField2.getText().equals("Drake")) {
+            jTextField4.setForeground(Color.white);
+            jTextField4.setEnabled(false);
+        }else if(jTextField3.getText().equals("Drake")){
+            jTextField2.setForeground(Color.white);
+            jTextField2.setEnabled(false);
+        }else if(jTextField4.getText().equals("Drake")){
+            jTextField5.setForeground(Color.white);
+            jTextField5.setEnabled(false);
+        }else if(jTextField5.getText().equals("Drake")){
+            jTextField4.setForeground(Color.white);
+            jTextField4.setEnabled(false);
         }
+        
+        
+    }
+    else if (callquestions == 3) {
+        if (jTextField2.getText().equals("Venus")) {
+            jTextField4.setForeground(Color.white);
+            jTextField4.setEnabled(false);
+        }else if(jTextField3.getText().equals("Venus")){
+            jTextField4.setForeground(Color.white);
+            jTextField4.setEnabled(false);
+        }else if(jTextField4.getText().equals("Venus")){
+            jTextField5.setForeground(Color.white);
+            jTextField5.setEnabled(false);
+        }else if(jTextField5.getText().equals("Venus")){
+
+            jTextField2.setForeground(Color.white);
+            jTextField2.setEnabled(false);
+        }
+        
+    } 
+    else if (callquestions == 4) {
+        if (jTextField2.getText().equals("Nike")) {
+            jTextField4.setForeground(Color.white);
+            jTextField4.setEnabled(false);
+        }else if(jTextField3.getText().equals("Nike")){
+            jTextField4.setForeground(Color.white);
+            jTextField4.setEnabled(false);
+        }else if(jTextField4.getText().equals("Nike")){
+            jTextField3.setForeground(Color.white);
+            jTextField3.setEnabled(false);
+        }else if(jTextField5.getText().equals("Nike")){
+            jTextField3.setForeground(Color.white);
+            jTextField3.setEnabled(false);
+
+        }
+        
+    } 
+    else if (callquestions == 5) {
+        if (jTextField2.getText().equals("Heights")) {
+            jTextField4.setForeground(Color.white);
+            jTextField4.setEnabled(false);
+        }else if(jTextField3.getText().equals("Heights")){
+            jTextField4.setForeground(Color.white);
+            jTextField4.setEnabled(false);
+        }else if(jTextField4.getText().equals("Heights")){
+            jTextField5.setForeground(Color.white);
+            jTextField5.setEnabled(false);
+        }else if(jTextField5.getText().equals("Heights")){
+            jTextField2.setForeground(Color.white);
+            jTextField2.setEnabled(false);
+
+        }
+        
+    } 
+    else if (callquestions == 6) {
+        if (jTextField2.getText().equals("RSA")) {
+            jTextField5.setForeground(Color.white);
+            jTextField5.setEnabled(false);
+        }else if(jTextField3.getText().equals("RSA")){
+            jTextField2.setForeground(Color.white);
+            jTextField2.setEnabled(false);
+        }else if(jTextField4.getText().equals("RSA")){
+            jTextField3.setForeground(Color.white);
+            jTextField3.setEnabled(false);
+        }else if(jTextField5.getText().equals("RSA")){
+            jTextField3.setForeground(Color.white);
+            jTextField3.setEnabled(false);
+
+        }
+        
+    }
+    else if (callquestions == 7) {
+        if (jTextField2.getText().equals("Ukraine")) {
+            jTextField3.setForeground(Color.white);
+            jTextField3.setEnabled(false);
+        }else if(jTextField3.getText().equals("Ukraine")){
+            jTextField5.setForeground(Color.white);
+            jTextField5.setEnabled(false);
+        }else if(jTextField4.getText().equals("Ukraine")){
+            jTextField2.setForeground(Color.white);
+            jTextField2.setEnabled(false);
+        }else if(jTextField5.getText().equals("Ukriane")){
+            jTextField3.setForeground(Color.white);
+            jTextField3.setEnabled(false);
+
+        }
+        
+    } 
+    else if (callquestions == 8) {
+        if (jTextField2.getText().equals("4")) {
+            jTextField3.setForeground(Color.white);
+            jTextField3.setEnabled(false);
+        }else if(jTextField3.getText().equals("4")){
+            jTextField4.setForeground(Color.white);
+            jTextField4.setEnabled(false);
+        }else if(jTextField4.getText().equals("4")){
+            jTextField2.setForeground(Color.white);
+            jTextField2.setEnabled(false);
+        }else if(jTextField5.getText().equals("4")){
+            jTextField4.setForeground(Color.white);
+            jTextField4.setEnabled(false);
+        }
+        
+    }
+    else if (callquestions == 9) {
+        if (jTextField2.getText().equals("Horse")) {
+            jTextField3.setForeground(Color.white);
+            jTextField3.setEnabled(false);
+
+        }else if(jTextField3.getText().equals("Horse")){
+            jTextField2.setForeground(Color.white);
+            jTextField2.setEnabled(false);
+        }else if(jTextField4.getText().equals("Horse")){
+            jTextField5.setForeground(Color.white);
+            jTextField5.setEnabled(false);
+        }else if(jTextField5.getText().equals("Horse")){
+            jTextField4.setForeground(Color.white);
+            jTextField4.setEnabled(false);
+        }
+        
+    }else if (callquestions == 10) {
+        if (jTextField2.getText().equals("China")) {
+            jTextField3.setForeground(Color.white);
+            jTextField3.setEnabled(false);
+        }else if(jTextField3.getText().equals("Chine")){
+            jTextField2.setForeground(Color.white);
+            jTextField2.setEnabled(false);
+        }else if(jTextField4.getText().equals("China")){
+            jTextField5.setForeground(Color.white);
+            jTextField5.setEnabled(false);
+        }else if(jTextField5.getText().equals("China")){
+            jTextField4.setForeground(Color.white);
+            jTextField4.setEnabled(false);
+        }
+        
+    }else if (callquestions == 11) {
+        if (jTextField2.getText().equals("Burj-Khalifa")) {
+            jTextField3.setForeground(Color.white);
+            jTextField3.setEnabled(false);
+        }else if(jTextField3.getText().equals("Burj-Khalifa")){
+            jTextField2.setForeground(Color.white);
+            jTextField2.setEnabled(false);
+        }else if(jTextField4.getText().equals("Burj-Khalifa")){
+            jTextField5.setForeground(Color.white);
+            jTextField5.setEnabled(false);
+        }else if(jTextField5.getText().equals("Burj-Khalifa")){
+            jTextField4.setForeground(Color.white);
+            jTextField4.setEnabled(false);
+        }
+        
+    }else if (callquestions == 12) {
+        if (jTextField2.getText().equals("Sukuna")) {
+            jTextField4.setForeground(Color.white);
+            jTextField4.setEnabled(false);
+        }else if(jTextField3.getText().equals("Sukuna")){
+            jTextField2.setForeground(Color.white);
+            jTextField2.setEnabled(false);
+        }else if(jTextField4.getText().equals("Sukuna")){
+            jTextField5.setForeground(Color.white);
+            jTextField5.setEnabled(false);
+        }else if(jTextField5.getText().equals("Sukuna")){
+            jTextField3.setForeground(Color.white);
+            jTextField3.setEnabled(false);
+        }
+        
+    }else if (callquestions == 13) {
+        if (jTextField2.getText().equals("Sakura")) {
+            jTextField3.setForeground(Color.white);
+            jTextField3.setEnabled(false);
+        }else if(jTextField3.getText().equals("Sakura")){
+            jTextField4.setForeground(Color.white);
+            jTextField4.setEnabled(false);
+        }else if(jTextField4.getText().equals("Sakura")){
+            jTextField5.setForeground(Color.white);
+            jTextField5.setEnabled(false);
+        }else if(jTextField5.getText().equals("Sakura")){
+            jTextField4.setForeground(Color.white);
+            jTextField4.setEnabled(false);
+        }
+        
+    }else if (callquestions == 14) {
+        if (jTextField2.getText().equals("Coffee")) {
+            jTextField4.setForeground(Color.white);
+            jTextField4.setEnabled(false);
+        }else if(jTextField3.getText().equals("Coffee")){
+            jTextField2.setForeground(Color.white);
+            jTextField2.setEnabled(false);
+        }else if(jTextField4.getText().equals("Coffee")){
+            jTextField2.setForeground(Color.white);
+            jTextField2.setEnabled(false);
+        }else if(jTextField5.getText().equals("Coffee")){
+            jTextField3.setForeground(Color.white);
+            jTextField3.setEnabled(false);
+        }
+        
+    }else if (callquestions == 15) {
+        if (jTextField2.getText().equals("Hage")) {
+            jTextField3.setForeground(Color.white);
+            jTextField3.setEnabled(false);
+            jTextField4.setForeground(Color.white);
+            jTextField4.setEnabled(false);
+        }else if(jTextField3.getText().equals("Hage")){
+            jTextField2.setForeground(Color.white);
+            jTextField2.setEnabled(false);
+            jTextField4.setForeground(Color.white);
+            jTextField4.setEnabled(false);
+        }else if(jTextField4.getText().equals("Hage")){
+            jTextField2.setForeground(Color.white);
+            jTextField2.setEnabled(false);
+            jTextField5.setForeground(Color.white);
+            jTextField5.setEnabled(false);
+        }else if(jTextField5.getText().equals("Hage")){
+            jTextField3.setForeground(Color.white);
+            jTextField3.setEnabled(false);
+            jTextField4.setForeground(Color.white);
+            jTextField4.setEnabled(false);
+        }
+        
+    }
+    
+    }
     }                                    
 
     private void jLabel3MouseClicked(java.awt.event.MouseEvent evt) {                                     
-        if(isClicked3==false){
+    if(isClicked3==false){
         isClicked3=true;
         jLabel3.setEnabled(false);
-        ImageIcon[] imagelist1=new ImageIcon[1];
-        for (int i =0; i < imagelist1.length; i++){
-        imagelist1[i] = new ImageIcon(getClass().getResource("/wLottery/images/"+ impeople[i]));
-        }
-        if(people < 0) people = 1;
-        if(people >= 0 && people < impeople.length){
-        jLabel3.setIcon(imagelist1[people]);
-            
+    
+    ImageIcon[] imagelist1 = new ImageIcon[1];
+    for (int i = 0; i < imagelist1.length; i++) {
+        imagelist1[i] = new ImageIcon(getClass().getResource("/wLottery/images/" + impeople[i]));
+    }
+    
+    if (people < 0) {
+        people = 1;
+    }
+    
+    if (people >= 0 && people < impeople.length) {
+        //jLabel1.setIcon(imagelist1[fifty50]);
+        jLabel3.setEnabled(false);
         people++;
+    }
+    
+        if (jLabel3.isEnabled()) {
+        // If jLabel1 is currently enabled, disable it
+        jLabel3.setEnabled(false);
         }
-}
+
+    if (callquestions == 1) {
+        if (jTextField2.getText().equals("VW")) {
+            jTextField3.setForeground(Color.white);
+            jTextField3.setEnabled(false);
+            jTextField4.setForeground(Color.white);
+            jTextField4.setEnabled(false);
+            jTextField5.setForeground(Color.white);
+            jTextField5.setEnabled(false);
+        }else if(jTextField3.getText().equals("VW")){
+            jTextField2.setForeground(Color.white);
+            jTextField2.setEnabled(false);
+            jTextField4.setForeground(Color.white);
+            jTextField4.setEnabled(false);
+            jTextField5.setForeground(Color.white);
+            jTextField5.setEnabled(false);
+        }else if(jTextField4.getText().equals("VW")){
+            jTextField3.setForeground(Color.white);
+            jTextField3.setEnabled(false);
+            jTextField2.setForeground(Color.white);
+            jTextField2.setEnabled(false);
+            jTextField5.setForeground(Color.white);
+            jTextField5.setEnabled(false);
+        }else if(jTextField5.getText().equals("VW")){
+            jTextField3.setForeground(Color.white);
+            jTextField3.setEnabled(false);
+            jTextField4.setForeground(Color.white);
+            jTextField4.setEnabled(false);
+            jTextField2.setForeground(Color.white);
+            jTextField2.setEnabled(false);
+        } 
+        
+        
+    }
+    else if (callquestions == 2) {
+        if (jTextField2.getText().equals("Drake")) {
+            jTextField3.setForeground(Color.white);
+            jTextField3.setEnabled(false);
+            jTextField4.setForeground(Color.white);
+            jTextField4.setEnabled(false);
+            jTextField5.setForeground(Color.white);
+            jTextField5.setEnabled(false);
+        }else if(jTextField3.getText().equals("Drake")){
+            jTextField2.setForeground(Color.white);
+            jTextField2.setEnabled(false);
+            jTextField4.setForeground(Color.white);
+            jTextField4.setEnabled(false);
+            jTextField5.setForeground(Color.white);
+            jTextField5.setEnabled(false);
+        }else if(jTextField4.getText().equals("Drake")){
+            jTextField3.setForeground(Color.white);
+            jTextField3.setEnabled(false);
+            jTextField5.setForeground(Color.white);
+            jTextField5.setEnabled(false);
+            jTextField4.setForeground(Color.white);
+            jTextField4.setEnabled(false);
+        }else if(jTextField5.getText().equals("Drake")){
+            jTextField3.setForeground(Color.white);
+            jTextField3.setEnabled(false);
+            jTextField4.setForeground(Color.white);
+            jTextField4.setEnabled(false);
+            jTextField2.setForeground(Color.white);
+            jTextField2.setEnabled(false);
+        }
+        
+        
+    }
+    else if (callquestions == 3) {
+        if (jTextField2.getText().equals("Venus")) {
+            jTextField3.setForeground(Color.white);
+            jTextField3.setEnabled(false);
+            jTextField4.setForeground(Color.white);
+            jTextField4.setEnabled(false);
+            jTextField5.setForeground(Color.white);
+            jTextField5.setEnabled(false);
+        }else if(jTextField3.getText().equals("Venus")){
+            jTextField2.setForeground(Color.white);
+            jTextField2.setEnabled(false);
+            jTextField4.setForeground(Color.white);
+            jTextField4.setEnabled(false);
+            jTextField5.setForeground(Color.white);
+            jTextField5.setEnabled(false);
+        }else if(jTextField4.getText().equals("Venus")){
+            jTextField3.setForeground(Color.white);
+            jTextField3.setEnabled(false);
+            jTextField2.setForeground(Color.white);
+            jTextField2.setEnabled(false);
+            jTextField5.setForeground(Color.white);
+            jTextField5.setEnabled(false);
+        }else if(jTextField5.getText().equals("Venus")){
+            jTextField4.setForeground(Color.white);
+            jTextField4.setEnabled(false);
+            jTextField2.setForeground(Color.white);
+            jTextField2.setEnabled(false);
+            jTextField3.setForeground(Color.white);
+            jTextField3.setEnabled(false);
+        }
+        
+    } 
+    else if (callquestions == 4) {
+        if (jTextField2.getText().equals("Nike")) {
+            jTextField3.setForeground(Color.white);
+            jTextField3.setEnabled(false);
+            jTextField4.setForeground(Color.white);
+            jTextField4.setEnabled(false);
+            jTextField5.setForeground(Color.white);
+            jTextField5.setEnabled(false);
+        }else if(jTextField3.getText().equals("Nike")){
+            jTextField2.setForeground(Color.white);
+            jTextField2.setEnabled(false);
+            jTextField4.setForeground(Color.white);
+            jTextField4.setEnabled(false);
+            jTextField5.setForeground(Color.white);
+            jTextField5.setEnabled(false);
+        }else if(jTextField4.getText().equals("Nike")){
+            jTextField3.setForeground(Color.white);
+            jTextField3.setEnabled(false);
+            jTextField2.setForeground(Color.white);
+            jTextField2.setEnabled(false);
+            jTextField5.setForeground(Color.white);
+            jTextField5.setEnabled(false);
+        }else if(jTextField5.getText().equals("Nike")){
+            jTextField3.setForeground(Color.white);
+            jTextField3.setEnabled(false);
+            jTextField4.setForeground(Color.white);
+            jTextField4.setEnabled(false);
+            jTextField2.setForeground(Color.white);
+            jTextField2.setEnabled(false);
+        }
+        
+    } 
+    else if (callquestions == 5) {
+        if (jTextField2.getText().equals("Heights")) {
+            jTextField3.setForeground(Color.white);
+            jTextField3.setEnabled(false);
+            jTextField4.setForeground(Color.white);
+            jTextField4.setEnabled(false);
+            jTextField5.setForeground(Color.white);
+            jTextField5.setEnabled(false);
+        }else if(jTextField3.getText().equals("Heights")){
+            jTextField2.setForeground(Color.white);
+            jTextField2.setEnabled(false);
+            jTextField4.setForeground(Color.white);
+            jTextField4.setEnabled(false);
+            jTextField5.setForeground(Color.white);
+            jTextField5.setEnabled(false);
+        }else if(jTextField4.getText().equals("Heights")){
+            jTextField3.setForeground(Color.white);
+            jTextField3.setEnabled(false);
+            jTextField5.setForeground(Color.white);
+            jTextField5.setEnabled(false);
+            jTextField4.setForeground(Color.white);
+            jTextField4.setEnabled(false);
+        }else if(jTextField5.getText().equals("Heights")){
+            jTextField2.setForeground(Color.white);
+            jTextField2.setEnabled(false);
+            jTextField4.setForeground(Color.white);
+            jTextField4.setEnabled(false);
+            jTextField3.setForeground(Color.white);
+            jTextField3.setEnabled(false);
+        }
+        
+    } 
+    else if (callquestions == 6) {
+        if (jTextField2.getText().equals("RSA")) {
+            jTextField3.setForeground(Color.white);
+            jTextField3.setEnabled(false);
+            jTextField4.setForeground(Color.white);
+            jTextField4.setEnabled(false);
+            jTextField5.setForeground(Color.white);
+            jTextField5.setEnabled(false);
+        }else if(jTextField3.getText().equals("RSA")){
+            jTextField2.setForeground(Color.white);
+            jTextField2.setEnabled(false);
+            jTextField4.setForeground(Color.white);
+            jTextField4.setEnabled(false);
+            jTextField5.setForeground(Color.white);
+            jTextField5.setEnabled(false);
+        }else if(jTextField4.getText().equals("RSA")){
+            jTextField3.setForeground(Color.white);
+            jTextField3.setEnabled(false);
+            jTextField2.setForeground(Color.white);
+            jTextField2.setEnabled(false);
+            jTextField5.setForeground(Color.white);
+            jTextField5.setEnabled(false);
+        }else if(jTextField5.getText().equals("RSA")){
+            jTextField3.setForeground(Color.white);
+            jTextField3.setEnabled(false);
+            jTextField4.setForeground(Color.white);
+            jTextField4.setEnabled(false);
+            jTextField2.setForeground(Color.white);
+            jTextField2.setEnabled(false);
+        }
+        
+    }
+    else if (callquestions == 7) {
+        if (jTextField2.getText().equals("Ukraine")) {
+            jTextField3.setForeground(Color.white);
+            jTextField3.setEnabled(false);
+            jTextField4.setForeground(Color.white);
+            jTextField4.setEnabled(false);
+            jTextField5.setForeground(Color.white);
+            jTextField5.setEnabled(false);
+        }else if(jTextField3.getText().equals("Ukraine")){
+            jTextField5.setForeground(Color.white);
+            jTextField5.setEnabled(false);
+            jTextField4.setForeground(Color.white);
+            jTextField4.setEnabled(false);
+            jTextField3.setForeground(Color.white);
+            jTextField3.setEnabled(false);
+        }else if(jTextField4.getText().equals("Ukraine")){
+            jTextField3.setForeground(Color.white);
+            jTextField3.setEnabled(false);
+            jTextField2.setForeground(Color.white);
+            jTextField2.setEnabled(false);
+            jTextField5.setForeground(Color.white);
+            jTextField5.setEnabled(false);
+        }else if(jTextField5.getText().equals("Ukriane")){
+            jTextField3.setForeground(Color.white);
+            jTextField3.setEnabled(false);
+            jTextField4.setForeground(Color.white);
+            jTextField4.setEnabled(false);
+            jTextField2.setForeground(Color.white);
+            jTextField2.setEnabled(false);
+        }
+        
+    } 
+    else if (callquestions == 8) {
+        if (jTextField2.getText().equals("4")) {
+            jTextField3.setForeground(Color.white);
+            jTextField3.setEnabled(false);
+            jTextField4.setForeground(Color.white);
+            jTextField4.setEnabled(false);
+            jTextField5.setForeground(Color.white);
+            jTextField5.setEnabled(false);
+        }else if(jTextField3.getText().equals("4")){
+            jTextField2.setForeground(Color.white);
+            jTextField2.setEnabled(false);
+            jTextField4.setForeground(Color.white);
+            jTextField4.setEnabled(false);
+            jTextField5.setForeground(Color.white);
+            jTextField5.setEnabled(false);
+        }else if(jTextField4.getText().equals("4")){
+            jTextField2.setForeground(Color.white);
+            jTextField2.setEnabled(false);
+            jTextField3.setForeground(Color.white);
+            jTextField3.setEnabled(false);
+            jTextField5.setForeground(Color.white);
+            jTextField5.setEnabled(false);
+        }else if(jTextField5.getText().equals("4")){
+            jTextField3.setForeground(Color.white);
+            jTextField3.setEnabled(false);
+            jTextField4.setForeground(Color.white);
+            jTextField4.setEnabled(false);
+            jTextField2.setForeground(Color.white);
+            jTextField2.setEnabled(false);
+        }
+        
+    }
+    else if (callquestions == 9) {
+        if (jTextField2.getText().equals("Horse")) {
+            jTextField3.setForeground(Color.white);
+            jTextField3.setEnabled(false);
+            jTextField4.setForeground(Color.white);
+            jTextField4.setEnabled(false);
+            jTextField5.setForeground(Color.white);
+            jTextField5.setEnabled(false);
+        }else if(jTextField3.getText().equals("Horse")){
+            jTextField2.setForeground(Color.white);
+            jTextField2.setEnabled(false);
+            jTextField4.setForeground(Color.white);
+            jTextField4.setEnabled(false);
+            jTextField5.setForeground(Color.white);
+            jTextField5.setEnabled(false);
+        }else if(jTextField4.getText().equals("Horse")){
+            jTextField2.setForeground(Color.white);
+            jTextField2.setEnabled(false);
+            jTextField3.setForeground(Color.white);
+            jTextField3.setEnabled(false);
+            jTextField5.setForeground(Color.white);
+            jTextField5.setEnabled(false);
+        }else if(jTextField5.getText().equals("Horse")){
+            jTextField3.setForeground(Color.white);
+            jTextField3.setEnabled(false);
+            jTextField4.setForeground(Color.white);
+            jTextField4.setEnabled(false);
+            jTextField2.setForeground(Color.white);
+            jTextField2.setEnabled(false);
+        }
+        
+    }else if (callquestions == 10) {
+        if (jTextField2.getText().equals("China")) {
+            jTextField3.setForeground(Color.white);
+            jTextField3.setEnabled(false);
+            jTextField4.setForeground(Color.white);
+            jTextField4.setEnabled(false);
+            jTextField5.setForeground(Color.white);
+            jTextField5.setEnabled(false);
+        }else if(jTextField3.getText().equals("Chine")){
+            jTextField2.setForeground(Color.white);
+            jTextField2.setEnabled(false);
+            jTextField4.setForeground(Color.white);
+            jTextField4.setEnabled(false);
+            jTextField5.setForeground(Color.white);
+            jTextField5.setEnabled(false);
+        }else if(jTextField4.getText().equals("China")){
+            jTextField2.setForeground(Color.white);
+            jTextField2.setEnabled(false);
+            jTextField3.setForeground(Color.white);
+            jTextField3.setEnabled(false);
+            jTextField5.setForeground(Color.white);
+            jTextField5.setEnabled(false);
+        }else if(jTextField5.getText().equals("China")){
+            jTextField3.setForeground(Color.white);
+            jTextField3.setEnabled(false);
+            jTextField4.setForeground(Color.white);
+            jTextField4.setEnabled(false);
+            jTextField2.setForeground(Color.white);
+            jTextField2.setEnabled(false);
+        }
+        
+    }else if (callquestions == 11) {
+        if (jTextField2.getText().equals("Burj-Khalifa")) {
+            jTextField3.setForeground(Color.white);
+            jTextField3.setEnabled(false);
+            jTextField4.setForeground(Color.white);
+            jTextField4.setEnabled(false);
+            jTextField5.setForeground(Color.white);
+            jTextField5.setEnabled(false);
+        }else if(jTextField3.getText().equals("Burj-Khalifa")){
+            jTextField2.setForeground(Color.white);
+            jTextField2.setEnabled(false);
+            jTextField4.setForeground(Color.white);
+            jTextField4.setEnabled(false);
+            jTextField5.setForeground(Color.white);
+            jTextField5.setEnabled(false);
+        }else if(jTextField4.getText().equals("Burj-Khalifa")){
+            jTextField2.setForeground(Color.white);
+            jTextField2.setEnabled(false);
+            jTextField3.setForeground(Color.white);
+            jTextField3.setEnabled(false);
+            jTextField5.setForeground(Color.white);
+            jTextField5.setEnabled(false);
+        }else if(jTextField5.getText().equals("Burj-Khalifa")){
+            jTextField3.setForeground(Color.white);
+            jTextField3.setEnabled(false);
+            jTextField4.setForeground(Color.white);
+            jTextField4.setEnabled(false);
+            jTextField2.setForeground(Color.white);
+            jTextField2.setEnabled(false);
+        }
+        
+    }else if (callquestions == 12) {
+        if (jTextField2.getText().equals("Sukuna")) {
+            jTextField3.setForeground(Color.white);
+            jTextField3.setEnabled(false);
+            jTextField4.setForeground(Color.white);
+            jTextField4.setEnabled(false);
+            jTextField5.setForeground(Color.white);
+            jTextField5.setEnabled(false);
+        }else if(jTextField3.getText().equals("Sukuna")){
+            jTextField2.setForeground(Color.white);
+            jTextField2.setEnabled(false);
+            jTextField4.setForeground(Color.white);
+            jTextField4.setEnabled(false);
+            jTextField5.setForeground(Color.white);
+            jTextField5.setEnabled(false);
+        }else if(jTextField4.getText().equals("Sukuna")){
+            jTextField2.setForeground(Color.white);
+            jTextField2.setEnabled(false);
+            jTextField5.setForeground(Color.white);
+            jTextField5.setEnabled(false);
+            jTextField4.setForeground(Color.white);
+            jTextField4.setEnabled(false);
+        }else if(jTextField5.getText().equals("Sukuna")){
+            jTextField3.setForeground(Color.white);
+            jTextField3.setEnabled(false);
+            jTextField4.setForeground(Color.white);
+            jTextField4.setEnabled(false);
+            jTextField2.setForeground(Color.white);
+            jTextField2.setEnabled(false);
+        }
+        
+    }else if (callquestions == 13) {
+        if (jTextField2.getText().equals("Sakura")) {
+            jTextField3.setForeground(Color.white);
+            jTextField3.setEnabled(false);
+            jTextField4.setForeground(Color.white);
+            jTextField4.setEnabled(false);
+            jTextField5.setForeground(Color.white);
+            jTextField5.setEnabled(false);
+        }else if(jTextField3.getText().equals("Sakura")){
+            jTextField2.setForeground(Color.white);
+            jTextField2.setEnabled(false);
+            jTextField4.setForeground(Color.white);
+            jTextField4.setEnabled(false);
+            jTextField5.setForeground(Color.white);
+            jTextField5.setEnabled(false);
+        }else if(jTextField4.getText().equals("Sakura")){
+            jTextField2.setForeground(Color.white);
+            jTextField2.setEnabled(false);
+            jTextField5.setForeground(Color.white);
+            jTextField5.setEnabled(false);
+            jTextField3.setForeground(Color.white);
+            jTextField3.setEnabled(false);
+        }else if(jTextField5.getText().equals("Sakura")){
+            jTextField3.setForeground(Color.white);
+            jTextField3.setEnabled(false);
+            jTextField4.setForeground(Color.white);
+            jTextField4.setEnabled(false);
+            jTextField2.setForeground(Color.white);
+            jTextField2.setEnabled(false);
+        }
+        
+    }else if (callquestions == 14) {
+        if (jTextField2.getText().equals("Coffee")) {
+            jTextField3.setForeground(Color.white);
+            jTextField3.setEnabled(false);
+            jTextField4.setForeground(Color.white);
+            jTextField4.setEnabled(false);
+            jTextField5.setForeground(Color.white);
+            jTextField5.setEnabled(false);
+        }else if(jTextField3.getText().equals("Coffee")){
+            jTextField2.setForeground(Color.white);
+            jTextField2.setEnabled(false);
+            jTextField4.setForeground(Color.white);
+            jTextField4.setEnabled(false);
+            jTextField5.setForeground(Color.white);
+            jTextField5.setEnabled(false);
+        }else if(jTextField4.getText().equals("Coffee")){
+            jTextField2.setForeground(Color.white);
+            jTextField2.setEnabled(false);
+            jTextField5.setForeground(Color.white);
+            jTextField5.setEnabled(false);
+            jTextField3.setForeground(Color.white);
+            jTextField3.setEnabled(false);
+        }else if(jTextField5.getText().equals("Coffee")){
+            jTextField3.setForeground(Color.white);
+            jTextField3.setEnabled(false);
+            jTextField4.setForeground(Color.white);
+            jTextField4.setEnabled(false);
+            jTextField2.setForeground(Color.white);
+            jTextField2.setEnabled(false);
+        }
+        
+    }else if (callquestions == 15) {
+        if (jTextField2.getText().equals("Hage")) {
+            jTextField3.setForeground(Color.white);
+            jTextField3.setEnabled(false);
+            jTextField4.setForeground(Color.white);
+            jTextField4.setEnabled(false);
+            jTextField5.setForeground(Color.white);
+            jTextField5.setEnabled(false);
+        }else if(jTextField3.getText().equals("Hage")){
+            jTextField2.setForeground(Color.white);
+            jTextField2.setEnabled(false);
+            jTextField4.setForeground(Color.white);
+            jTextField4.setEnabled(false);
+            jTextField5.setForeground(Color.white);
+            jTextField5.setEnabled(false);
+        }else if(jTextField4.getText().equals("Hage")){
+            jTextField2.setForeground(Color.white);
+            jTextField2.setEnabled(false);
+            jTextField5.setForeground(Color.white);
+            jTextField5.setEnabled(false);
+            jTextField3.setForeground(Color.white);
+            jTextField3.setEnabled(false);
+
+        }else if(jTextField5.getText().equals("Hage")){
+            jTextField3.setForeground(Color.white);
+            jTextField3.setEnabled(false);
+            jTextField4.setForeground(Color.white);
+            jTextField4.setEnabled(false);
+            jTextField2.setForeground(Color.white);
+            jTextField2.setEnabled(false);
+        }
+        
+    }
+    
+    }
+                                        
+
     }                                    
  
     private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {                                            
@@ -1724,7 +2637,7 @@ public class qLottery extends javax.swing.JFrame {
         // TODO add your handling code here:
         
         if (callquestions == 1) {
-            if (jTextField2.getText().equals("Bunny")) {
+            if (jTextField2.getText().equals("VW")) {
                 jTextField2.setBackground(Color.GREEN);
                 jTextField2.setForeground(Color.black);
                 jTextField3.setEnabled(false);
@@ -3753,7 +4666,7 @@ public class qLottery extends javax.swing.JFrame {
 
     private void jLabel1MousePressed(java.awt.event.MouseEvent evt) {                                     
             // TODO add your handling code here:
-            jLabel1.setEnabled(false);
+           // jLabel1.setEnabled(false);
     }                                    
 
     
