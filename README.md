@@ -113,7 +113,7 @@ public class qLottery extends javax.swing.JFrame {
             }
         });
 
-        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/wLottery/Images/eren2.jpg"))); // NOI18N
+        jButton1.setIcon(new javax.swing.ImageIcon("C:\\Users\\g22n2044\\Downloads\\PLottery\\src\\wLottery\\Images\\button.jpg")); // NOI18N
         jButton1.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jButton1MouseClicked(evt);
@@ -176,9 +176,7 @@ public class qLottery extends javax.swing.JFrame {
                     .addGroup(layout.createSequentialGroup()
                         .addGap(14, 14, 14)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(jTextField4, javax.swing.GroupLayout.PREFERRED_SIZE, 140, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(146, 146, 146))
+                            .addComponent(jTextField4, javax.swing.GroupLayout.PREFERRED_SIZE, 140, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addGroup(layout.createSequentialGroup()
                                 .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, 140, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(155, 155, 155)
@@ -297,9 +295,9 @@ public class qLottery extends javax.swing.JFrame {
             jTextField3.setEnabled(true);
             jTextField4.setEnabled(true);
             jTextField5.setEnabled(true);
-            jTextField1.setText("The best nickname");
+            jTextField1.setText("What's the most sold car made in Germany");
             int arraySize = 4;
-            String[] jfield = {"Broy", "Bunny", "Somizi", "Mihlali NO!!"};
+            String[] jfield = {"Mercedes_Benz", "BMW", "Audi", "VW"};
             Random random = new Random();
             Set<Integer> selectedIndices = new HashSet<>();
 
@@ -792,22 +790,22 @@ public class qLottery extends javax.swing.JFrame {
         }
 
     if (callquestions == 1) {
-        if (jTextField2.getText().equals("Bunny")) {
+        if (jTextField2.getText().equals("VW")) {
             jTextField3.setForeground(Color.white);
             jTextField3.setEnabled(false);
             jTextField5.setForeground(Color.white);
             jTextField5.setEnabled(false);
-        }else if(jTextField3.getText().equals("Bunny")){
+        }else if(jTextField3.getText().equals("VW")){
             jTextField3.setForeground(Color.white);
             jTextField2.setEnabled(false);
             jTextField5.setForeground(Color.white);
             jTextField5.setEnabled(false);
-        }else if(jTextField4.getText().equals("Bunny")){
+        }else if(jTextField4.getText().equals("VW")){
             jTextField3.setForeground(Color.white);
             jTextField3.setEnabled(false);
             jTextField2.setForeground(Color.white);
             jTextField2.setEnabled(false);
-        }else if(jTextField5.getText().equals("Bunny")){
+        }else if(jTextField5.getText().equals("VW")){
             jTextField3.setForeground(Color.white);
             jTextField3.setEnabled(false);
             jTextField4.setForeground(Color.white);
@@ -1003,7 +1001,7 @@ public class qLottery extends javax.swing.JFrame {
             
         phone++;
 }  
-         if(callquestions==1 && jTextField2.getText().equals("Bunny"));
+         if(callquestions==1 && jTextField2.getText().equals("VW"));
         {
             jTextField3.setForeground(BLACK);
             jTextField4.setForeground(BLACK);
@@ -1034,7 +1032,7 @@ public class qLottery extends javax.swing.JFrame {
 
     private void jTextField3ActionPerformed(java.awt.event.ActionEvent evt) {                                            
            if (callquestions == 1) {
-            if (jTextField3.getText().equals("Bunny")) {
+            if (jTextField3.getText().equals("VW")) {
                 jTextField3.setBackground(Color.GREEN);
                 jTextField3.setForeground(Color.black);
                 jTextField2.setEnabled(false);
@@ -1080,7 +1078,7 @@ public class qLottery extends javax.swing.JFrame {
             }
         }
    
-            jButton1.setVisible(false);
+           
         
 
                 if (callquestions == 2) {
@@ -1536,7 +1534,7 @@ public class qLottery extends javax.swing.JFrame {
             }
         }
              if (callquestions == 12) {
-            if (jTextField3.getText().equals("Sakuna")) {
+            if (jTextField3.getText().equals("Sukuna")) {
                 jTextField3.setBackground(Color.GREEN);
                 jTextField3.setForeground(Color.black);
                 jTextField2.setEnabled(false);
@@ -2217,7 +2215,7 @@ public class qLottery extends javax.swing.JFrame {
             }
         }
              if (callquestions == 12) {
-            if (jTextField2.getText().equals("Sakuna")) {
+            if (jTextField2.getText().equals("Sukuna")) {
                 jTextField2.setBackground(Color.GREEN);
                 jTextField2.setForeground(Color.black);
                 jTextField3.setEnabled(false);
@@ -2404,7 +2402,7 @@ public class qLottery extends javax.swing.JFrame {
 
     private void jTextField4ActionPerformed(java.awt.event.ActionEvent evt) {                                            
         if (callquestions == 1) {
-            if (jTextField4.getText().equals("Bunny")) {
+            if (jTextField4.getText().equals("VW")) {
                 jTextField4.setBackground(Color.GREEN);
                 jTextField4.setForeground(Color.black);
                 jTextField3.setEnabled(false);
@@ -2898,7 +2896,7 @@ public class qLottery extends javax.swing.JFrame {
             }
         }
              if (callquestions == 12) {
-            if (jTextField4.getText().equals("Sakuna")) {
+            if (jTextField4.getText().equals("Sukuna")) {
                 jTextField4.setBackground(Color.GREEN);
                 jTextField4.setForeground(Color.black);
                 jTextField3.setEnabled(false);
@@ -3083,7 +3081,7 @@ public class qLottery extends javax.swing.JFrame {
 
     private void jTextField5ActionPerformed(java.awt.event.ActionEvent evt) {                                            
         if (callquestions == 1) {
-            if (jTextField5.getText().equals("Bunny")) {
+            if (jTextField5.getText().equals("VW")) {
                 jTextField5.setBackground(Color.GREEN);
                 jTextField5.setForeground(Color.black);
                 jTextField3.setEnabled(false);
@@ -3439,8 +3437,8 @@ public class qLottery extends javax.swing.JFrame {
                 jTextField5.setForeground(Color.black);
                 jTextField3.setEnabled(false);
                 jTextField3.setBackground(Color.BLACK);
-                jTextField4.setBackground(Color.BLACK);
-                jTextField4.setEnabled(false);
+                jTextField2.setBackground(Color.BLACK);
+                jTextField2.setEnabled(false);
                 jTextField4.setBackground(Color.BLACK);
                 jTextField4.setEnabled(false);
                 jButton1.setVisible(true);
@@ -3479,16 +3477,16 @@ public class qLottery extends javax.swing.JFrame {
             }
         }
              if (callquestions == 10) {
-            if (jTextField4.getText().equals("China")) {
-                jTextField4.setBackground(Color.GREEN);
-                jTextField4.setForeground(Color.black);
+            if (jTextField5.getText().equals("China")) {
+                jTextField5.setBackground(Color.GREEN);
+                jTextField5.setForeground(Color.black);
                 jTextField3.setEnabled(false);
                 jTextField3
                         .setBackground(Color.BLACK);
                 jTextField2.setBackground(Color.BLACK);
                 jTextField2.setEnabled(false);
-                jTextField5.setBackground(Color.BLACK);
-                jTextField5.setEnabled(false);
+                jTextField4.setBackground(Color.BLACK);
+                jTextField4.setEnabled(false);
                 jButton1.setVisible(true);
                 
  
@@ -3531,8 +3529,8 @@ public class qLottery extends javax.swing.JFrame {
                 jTextField3.setEnabled(false);
                 jTextField3
                         .setBackground(Color.BLACK);
-                jTextField5.setBackground(Color.BLACK);
-                jTextField5.setEnabled(false);
+                jTextField2.setBackground(Color.BLACK);
+                jTextField2.setEnabled(false);
                 jTextField4.setBackground(Color.BLACK);
                 jTextField4.setEnabled(false);
                 jButton1.setVisible(true);
@@ -3571,7 +3569,7 @@ public class qLottery extends javax.swing.JFrame {
             }
         }
              if (callquestions == 12) {
-            if (jTextField5.getText().equals("Sakuna")) {
+            if (jTextField5.getText().equals("Sukuna")) {
                 jTextField5.setBackground(Color.GREEN);
                 jTextField5.setForeground(Color.black);
                 jTextField3.setEnabled(false);
@@ -3579,8 +3577,8 @@ public class qLottery extends javax.swing.JFrame {
                         .setBackground(Color.BLACK);
                 jTextField4.setBackground(Color.BLACK);
                 jTextField4.setEnabled(false);
-                jTextField5.setBackground(Color.BLACK);
-                jTextField5.setEnabled(false);
+                jTextField2.setBackground(Color.BLACK);
+                jTextField2.setEnabled(false);
                 jButton1.setVisible(true);
                 
  
@@ -3617,15 +3615,15 @@ public class qLottery extends javax.swing.JFrame {
             }
         }
              if (callquestions == 13) {
-            if (jTextField4.getText().equals("Sakura")) {
-                jTextField4.setBackground(Color.GREEN);
-                jTextField4.setForeground(Color.black);
+            if (jTextField5.getText().equals("Sakura")) {
+                jTextField5.setBackground(Color.GREEN);
+                jTextField5.setForeground(Color.black);
                 jTextField3.setEnabled(false);
                 jTextField3.setBackground(Color.BLACK);
                 jTextField4.setBackground(Color.BLACK);
                 jTextField4.setEnabled(false);
-                jTextField5.setBackground(Color.BLACK);
-                jTextField5.setEnabled(false);
+                jTextField2.setBackground(Color.BLACK);
+                jTextField2.setEnabled(false);
                 jButton1.setVisible(true);
                 
  
@@ -3662,15 +3660,15 @@ public class qLottery extends javax.swing.JFrame {
             }
         }
              if (callquestions == 14) {
-            if (jTextField4.getText().equals("Coffee")) {
-                jTextField4.setBackground(Color.GREEN);
-                jTextField4.setForeground(Color.black);
+            if (jTextField5.getText().equals("Coffee")) {
+                jTextField5.setBackground(Color.GREEN);
+                jTextField5.setForeground(Color.black);
                 jTextField3.setEnabled(false);
                 jTextField3.setBackground(Color.BLACK);
                 jTextField4.setBackground(Color.BLACK);
                 jTextField4.setEnabled(false);
-                jTextField5.setBackground(Color.BLACK);
-                jTextField5.setEnabled(false);
+                jTextField2.setBackground(Color.BLACK);
+                jTextField2.setEnabled(false);
                 jButton1.setVisible(true);
                 
  
@@ -3707,15 +3705,15 @@ public class qLottery extends javax.swing.JFrame {
             }
         }
              if (callquestions == 15) {
-            if (jTextField4.getText().equals("Hage")) {
-                jTextField4.setBackground(Color.GREEN);
-                jTextField4.setForeground(Color.black);
+            if (jTextField5.getText().equals("Hage")) {
+                jTextField5.setBackground(Color.GREEN);
+                jTextField5.setForeground(Color.black);
                 jTextField3.setEnabled(false);
                 jTextField3.setBackground(Color.BLACK);
                 jTextField4.setBackground(Color.BLACK);
                 jTextField4.setEnabled(false);
-                jTextField5.setBackground(Color.BLACK);
-                jTextField5.setEnabled(false);
+                jTextField2.setBackground(Color.BLACK);
+                jTextField2.setEnabled(false);
                 jButton1.setVisible(true);
                 
  
